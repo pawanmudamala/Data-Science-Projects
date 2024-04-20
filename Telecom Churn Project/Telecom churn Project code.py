@@ -1588,7 +1588,8 @@ model = RandomForestClassifier(n_estimators=120, random_state=42)
 model.fit(X_train, Y_train)
 
 # Save the model to disk
-filename = 'C:\\Users\\pavan\\Desktop\\Telecom-Churn-Project\\finalized_model.sav'
+# please give your local computer path to run the code 
+filename = 'C:\\Users\\pavan\\Desktop\\Telecom-Churn-Projec\\finalized_model.sav' 
 
 dump(model, open(filename, 'wb'))
 
