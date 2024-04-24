@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from pickle import load
 
 # Load the trained model
-model = load(open(r'C:\\Users\\pavan\\Desktop\\Telecom-Churn-Project\\finalized_model.sav', 'rb'))
+model = load(open(r'https://github.com/pawanmudamala/Data-Science-Projects/blob/main/Telecom%20Churn%20Project/Telecom%20churn%20Project%20code.py\\finalized_model.sav', 'rb'))
 
 # Define the Streamlit app
 def main():
