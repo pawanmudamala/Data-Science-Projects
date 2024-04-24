@@ -1589,7 +1589,7 @@ model.fit(X_train, Y_train)
 
 # Save the model to disk
 # please give your local computer path to run the code 
-filename = 'C:\\Users\\pavan\\Desktop\\Telecom-Churn-Projec\\finalized_model.sav' 
+filename = 'https://github.com/pawanmudamala/Data-Science-Projects/blob/main/Telecom%20Churn%20Project/Telecom%20churn%20Project%20code.py\\finalized_model.sav' 
 
 dump(model, open(filename, 'wb'))
 
